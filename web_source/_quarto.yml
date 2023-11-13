@@ -12,11 +12,11 @@ website:
   google-analytics: "G-YMFX7T0CQN"
   open-graph: true
   twitter-card: true
-  site-url: https://ucl-echild.github.io
-  repo-url: https://github.com/UCL-ECHILD/UCL-ECHILD.github.io
-  repo-subdir: web_source/
-  issue-url: https://github.com/UCL-ECHILD/echild-rd/issues/new/choose
-  repo-actions: [edit, issue]
+  site-url: https://www.echild.ac.uk
+  # repo-url: https://github.com/UCL-ECHILD/UCL-ECHILD.github.io
+  # repo-subdir: web_source/
+  # issue-url: https://github.com/UCL-ECHILD/echild-rd/issues/new/choose
+  # repo-actions: [edit, issue]
   page-navigation: true
   search: true
   back-to-top-navigation: true
@@ -24,13 +24,13 @@ website:
     center:
       - text: "License"
         href: license.qmd
-    right:
-      - icon: twitter
-        href: https://twitter.com/ucl_echild
-        aria-label: ECHILD on Twitter
-      - icon: github
-        href: https://github.com/UCL-ECHILD/echild-rd
-        aria-label: ECHILD on GitHub
+    # right:
+      # - icon: twitter
+      #   href: https://twitter.com/ucl_echild
+      #   aria-label: ECHILD on Twitter
+      # - icon: github
+      #   href: https://github.com/UCL-ECHILD/echild-rd
+      #   aria-label: ECHILD on GitHub
   navbar:
     title: false
     background: dark
@@ -52,7 +52,7 @@ website:
 
 format:
   html:
-    toc: true
+    toc: false
     theme: sandstone
     css: styles.css
     code-copy: true
